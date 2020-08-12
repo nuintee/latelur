@@ -65,7 +65,7 @@
         font-family: 'Raleway', sans-serif;
         font-weight:bold;
         color:#FFF;
-        padding:32px;
+        padding:24px;
         font-size:16px;
         outline:none;
         border:none;
