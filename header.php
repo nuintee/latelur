@@ -27,7 +27,8 @@
 
     <style>
         header{
-            margin:0;
+            margin:16px 0px;
+            padding:8px;
             border-bottom:2px solid #484848;
             text-align:center;
             font-family:'Raleway', sans-serif;
