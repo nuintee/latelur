@@ -8,10 +8,14 @@ $password = "47bb3b33";
 try{
     $dbh = new PDO($dsn,$username,$password);
     echo "接続成功";
+    header("Location: signup.inc.php?signup=success");
+    exit();
 }   
 
 catch(PDOExeption $e){
     echo "接続失敗:".$e -> getMessage();
+    header("Location: signup.inc.php?error=signupfail");
+    exit();
 }
 
 ?>
