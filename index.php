@@ -23,6 +23,10 @@
         --gradient-purple:linear-gradient(to right bottom, #BD20FF , #2B1780);
     }
 
+    html{
+        touch-action: manipulation
+    }
+
     body{
         margin:0;
         background-color:#333;
