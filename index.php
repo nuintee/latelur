@@ -62,9 +62,13 @@
     }
 
     .action-button{
+        position:absolute;
+        bottom:32px;
+        left:50%;
+        transform:translateX(-50%);
         display:block;
         box-sizing:border-box;
-        width:100%;
+        width:90%;
         background:var(--gradient-purple);
         font-family: 'Raleway', sans-serif;
         font-weight:bold;
