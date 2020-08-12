@@ -1,0 +1,19 @@
+
+
+
+body{
+    background-color:#333;
+    }
+
+@media screen and (min-width: 481px) {
+    /* 481px以上に適用されるCSS（タブレット用） */
+    body{
+        background-color: #333;
+    }
+}
+@media screen and (min-width: 960px) {
+    /* 960px以上に適用されるCSS（PC用） */
+    body{
+        background-color: #333;
+    }
+}
