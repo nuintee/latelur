@@ -72,6 +72,6 @@
 <!--Loading Screen -->
 <script>
     $(window).on('load', function(){
-    $('#loading').hide();
+    $('#loading').fadeout();
 });
 </script>
