@@ -17,7 +17,7 @@
 <body>
     <header>
         <div class ="top-part">
-            <h2>Latelur</h2>
+            <img src = "./images/logo_header.svg">
         </div>
 
         <div class ="bottom-part">
@@ -27,7 +27,7 @@
 
     <style>
         header{
-            margin:16px 0px;
+            margin:32px 16px 0 0px;
             padding:8px;
             border-bottom:2px solid #484848;
             text-align:center;
