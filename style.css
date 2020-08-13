@@ -1,0 +1,84 @@
+
+:root{
+    --font-size:13px;
+    --gradient-purple:linear-gradient(to right bottom, #BD20FF , #2B1780);
+}
+
+html{
+    touch-action: manipulation
+}
+
+body{
+    margin:0;
+    background-color:#333;
+    box-sizing:border-box;
+}
+
+.support-nav{
+    margin:32px;
+    text-align: center;
+}
+
+a{
+    display: block;
+    margin:16px;
+    text-decoration:none;
+    color:#AFAFAF;
+}a:hover{
+    color:#FFF;
+}
+
+.sign-container{
+    box-sizing:border-box;
+    width:100%;
+    height:80vh;
+    padding:16px;
+    margin:0;
+    text-align:center;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.sign-wrapper{
+    height:100%;
+    box-sizing:border-box;
+}
+
+input::placeholder{
+    font-size: var(--font-size);
+}
+
+.action-button{
+    position:absolute;
+    bottom:32px;
+    left:50%;
+    transform:translateX(-50%);
+    display:block;
+    box-sizing:border-box;
+    width:90%;
+    background:var(--gradient-purple);
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    color:#FFF;
+    padding:24px;
+    font-size:16px;
+    outline:none;
+    border:none;
+    border-radius:50px;
+    cursor:pointer;
+}
+
+
+.input-box{
+    display:block;
+    box-sizing:border-box;
+    width:100%;
+    background-color:#414141;
+    padding:16px;
+    margin:8px 0px;
+    outline:none;
+    border:none;
+    font-family: 'Raleway', sans-serif;
+    font-size:var(--font-size);
+    color:#FFF;
+}

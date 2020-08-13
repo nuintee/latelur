@@ -11,8 +11,9 @@
 <meta name="apple-mobile-web-app-title" content="Latelur">
 <!-- ホーム画面に表示されるアプリアイコン -->
 <link rel="apple-touch-icon" href="./images/logo_app192x192.png">
-    <title>Latelur</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+<title>Latelur</title>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -21,7 +22,11 @@
         </div>
 
         <div class ="bottom-part">
-            <h3>Create Account</h3>
+            <?php 
+            #Page Name
+            require "orientation.php";
+            echo "<h3>".$pageLocation."</h3>";
+            ?>
         </div>
     </header>
 
