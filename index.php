@@ -3,6 +3,10 @@
     require 'header.php';
 ?>
 
+<?php
+
+?>
+
 <main>
     <div class = "signup-container">
         <form class = "signup-wrapper" action="signup.inc.php" method = "post">
@@ -10,7 +14,9 @@
             <input class = "input-box" type="text" placeholder="USERNAME" name = "userName">
             <input class = "input-box" type="password" placeholder="PASSWORD" name = "password">
             <input class = "input-box" type="password" placeholder="REPEAT PASSWORD" name = "passwordRepeat">
-            <a href="login.inc.php"><p>Already have an account?</p></a>
+            <div class = "support-nav">
+                <a href="login.php">Already have an account?</a>
+            </div>
             <button class = "action-button" type = "submit" name = "singup-button">Signup</button>
         </form>
     </div>
@@ -33,10 +39,13 @@
         box-sizing:border-box;
     }
 
+    .support-nav{
+        margin:32px;
+    }
+
     a{
         text-decoration:none;
         color:#AFAFAF;
-        margin:8px;
     }a:hover{
         color:#FFF;
     }

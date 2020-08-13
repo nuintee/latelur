@@ -11,7 +11,7 @@
 <meta name="apple-mobile-web-app-title" content="Latelur">
 <!-- ホーム画面に表示されるアプリアイコン -->
 <link rel="apple-touch-icon" href="logo152x152.png">
-    <title>Latlurt</title>
+    <title>Latelur</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
