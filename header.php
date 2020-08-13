@@ -30,10 +30,12 @@
         </div>
     </header>
 
+    <!-- Loading Screen
     <div id = "loading">
         <img src = "./images/logo_header.svg">
         <p>version 1.0</p>
     </div>
+     -->
 
     <style>
         header{
@@ -69,9 +71,10 @@
 
 <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
-<!--Loading Screen -->
+<!--Loading Screen 
 <script>
     $(window).on('load', function(){
     $('#loading').fadeout();
 });
 </script>
+-->
