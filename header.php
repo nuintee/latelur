@@ -25,6 +25,11 @@
         </div>
     </header>
 
+    <div id = "loading">
+        <img src = "./images/logo_header.svg">
+        <p>version 1.0</p>
+    </div>
+
     <style>
         header{
             margin:32px 16px 0 0px;
@@ -34,4 +39,34 @@
             font-family:'Raleway', sans-serif;
             color:#FFF;
         }
+
+        #loading{
+          /* 画面一杯にローディング画面を広げる */
+            height: 100%;
+            width: 100%;
+            background: #333;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            z-index: 100;
+            /* flexboxを使ってローディングアイコンを画面の中央に寄せる */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
     </style>
+
+<script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+<!--Loading Screen -->
+<script>
+    $(window).on('load', function(){
+    $('#loading').hide();
+});
+</script>
