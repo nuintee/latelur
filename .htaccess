@@ -1,5 +1,0 @@
-AuthType Basic
-AuthName "Input your ID and Password."
-AuthUserFile https://github.com/nuintee/latelur/blob/master/.htpasswd
-require valid-user
-
